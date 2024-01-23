@@ -45,7 +45,6 @@ def getRatio(price_a, price_b):
     # when price_b is 0 avoid throwing ZeroDivisionError
     return price_a / price_b if price_b != 0 else None
 
-
 # Main
 if __name__ == "__main__":
     # Query the price once every N seconds.
